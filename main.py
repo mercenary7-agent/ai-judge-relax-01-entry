@@ -2,6 +2,7 @@
 """ai-judge-relax-01 entry: writes one short relaxing text to the output dir.
 
 Deterministic, no network, stdlib only. Running twice writes the same bytes.
+Output: <output_dir>/entry.txt (UTF-8, 518 chars).
 """
 import os
 
@@ -22,3 +23,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+# end of entry program
